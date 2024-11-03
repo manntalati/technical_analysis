@@ -10,5 +10,5 @@ tv = TvDatafeed()
 msft_data = tv.get_hist(symbol='MSFT', exchange='NASDAQ', interval=Interval.in_daily, n_bars=500  # Number of data points to retrieve
 )
 
-# Display the first few rows of the DataFrame
+# Display the dataframe
 print(msft_data)
