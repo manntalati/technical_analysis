@@ -1,0 +1,48 @@
+Datasets to look into: yfinance, download huge data frame
+Freecodecamp – algorithimic trading
+
+
+End Goal: have the program predict charts for all companies, model is good enough to understand data and predict
+-	Feed in enough data about charts to make it good for predict raw data
+-	Learn about chart recognition/characteristics
+-	How can we teach models to learn chart characteristics/what should we look for
+
+
+patternpy – predicting charts
+mplfinance – data visualization
+
+
+Chart Patterns:
+Trendlines:
+•	Connected series of Higher-highs, higher-lows, lower-highs, or lower-lows
+•	This can be done by drawing a line across the peaks or troughs of the chart.
+•	Not certain because the trend can be broken and that could be indicative of upward momentum to come.
+ 
+Pennants:
+•	Two trendlines intersect, depending on the direction of the flagpole, the pennant indicates an upward or downward move.
+•	During the period of formation, the volume tends to decrease
+•	They are continuation price indicators
+
+Flags:
+•	Similar to pennants, but the trendlines do not intersect, instead they are parallel. 
+•	Relies on the flagpole in order to determine the direction of future price movement.
+•	They are viewed as a break in the prior direction of movement.
+ 
+Wedges:
+•	Similar to a pennant in appearance. Pennants are more symmetrical in appearance whereas wedges have one trendline that has a greater slope. 
+•	Volume also decreases during wedge formation.
+•	Wedges can be either a continuation or reversal pattern. 
+
+Ascending and Descending Triangles:
+•	For ascending, the resistance line intersects with a rising trendline. It gives an idea of where to enter, where to exit, and put a stop loss. 
+•	For descending, the support line intersects with a falling trendline of lower highs.  
+
+Cup and Handle:
+•	Bullish continuation pattern
+•	Cup is a U shape with equal heights on both sides of the cup. Note, it should be a V shaped cup. The handle resembles a flag or pennant. 
+
+Head and Shoulders: 
+•	Reversal pattern
+•	It can be normal or inverted
+•	For a bearish head and shoulders, the first shoulder is a sharp peak, then the head is another peak higher than both shoulders, and the second shoulder is around the same height as the other.  
+•	For a bullish head and shoulders, the first shoulder is a trough, then the head is another trough even lower than both shoulders, and the second shoulder goes as far down as the other shoulder.
